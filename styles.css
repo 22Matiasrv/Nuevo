@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+header .logo img {
+    height: 80px;
+    width: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#Inicio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('Imagenes/Pantalla.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Inicio h1 {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+#PorQueContratarnos {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+#PorQueContratarnos h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#PorQueContratarnos .contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#PorQueContratarnos img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#PorQueContratarnos p {
+    max-width: 50%;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    height: 1.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/*TIENDA*/
+
+#tienda {
+    text-align: center;
+}
+
+#tienda h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.paquetes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paquete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.paquete img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.paquete p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.paquete button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.paquete button:hover {
+    background-color:blueviolet;
+}
+
+/*QUIENES SOMOS*/
+
+#Quienes {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+#Quienes h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#Quienes .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#Quienes img {
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#Quienes p {
+    width: 45%;
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+/*CONTACTENOS*/
+
+#contactenos {
+    text-align: center; /* Centra el texto del encabezado */
+    padding: 40px; /* Añade un poco de espacio alrededor */
+    background-color: #f9f9f9; /* Color de fondo opcional */
+}
+
+#contactenos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
