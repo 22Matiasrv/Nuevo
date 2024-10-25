@@ -203,9 +203,9 @@ footer p {
 /*CONTACTENOS*/
 
 #contactenos {
-    text-align: center; /* Centra el texto del encabezado */
-    padding: 40px; /* Añade un poco de espacio alrededor */
-    background-color: #f9f9f9; /* Color de fondo opcional */
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
 }
 
 #contactenos h2 {
